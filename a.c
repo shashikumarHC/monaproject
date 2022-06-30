@@ -21,7 +21,7 @@ void tri(int v,int w,int x,int y,int z) //tree
         glEnd();
     }
 glClear(GL_COLOR_BUFFER_BIT);
-glBegin(GL_POLYGON);
+glBegin(GL_POLYGON); //day background
 glColor3f(0.67,0.84,0.90);
 glVertex2i(0,0);
 glVertex2i(0,800);
